@@ -8,3 +8,4 @@ app.get('/',function(req, res) {
 app.use('/client',express.static(__dirname + '/client'));
 console.log('server started');
 serv.listen(2000);
+console.log('Hello!');
